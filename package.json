@@ -1,0 +1,20 @@
+{
+  "name": "summarize-of-node",
+  "version": "1.0.0",
+  "description": "针对node的一些学习总结",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangkunxiao/summarize-of-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangkunxiao/summarize-of-node/issues"
+  },
+  "homepage": "https://github.com/yangkunxiao/summarize-of-node#readme"
+}
