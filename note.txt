@@ -1,0 +1,45 @@
+系统和文件常识：
+    权限位： mode
+        权限分配   文件所有者   文件所属组   其他用户
+        权限项        读          写        执行
+        字符表示       r          w          x
+        数字表示       4          2          1    八进制表示
+    改变权限：chmode +r filename 添加读的权限
+            chmode  777 filename
+    ls -al: drwxr-xr-x
+    8-6位：文件所有者权限
+    5-3位：文件所属组权限
+    2-0位：其他用户权限
+    第九位：
+    d：目录文件
+    p：管道文件
+    l：连接文件
+    -：普通文件
+    s：.sock文件
+
+
+    标示位：flag
+        r：读取
+        w：写入
+        s：同步
+        +：追加相反的权限
+        x：排他方式
+
+
+文件描述符：fd 从3开始，因为 process.stdin  stdout  stderr 占用了 0  1  2
+
+
+Stream：
+    Readbale 可读流
+        自动流入flowing模式：data rs.resume()  re.pipe() 触发
+        手动流入paused模式：readable  rs.pause()
+    Writable 可写流 write()
+    Duplex 双工流  可读  可写
+    Trabsform 转换流 继承自Duplex  _transform
+
+
+pipe():
+    在流中搭建一个管道，保证读写速度，边读边写。(如果数据写入操作速度 大于 读取操作速度，就会出现错误，使用pipe可以避免这样的错误)
+
+
+链式操作 ：pipe()
