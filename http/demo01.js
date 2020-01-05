@@ -13,5 +13,5 @@ let app = http.createServer((req, res) => {
 });
 //设置监听端口号
 app.listen(3000, () => {
-    console.log('your server os running at localhost:3000');
+    console.log('your server is running at localhost:3000');
 });
