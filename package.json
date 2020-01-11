@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yangkunxiao/summarize-of-node/issues"
   },
-  "homepage": "https://github.com/yangkunxiao/summarize-of-node#readme"
+  "homepage": "https://github.com/yangkunxiao/summarize-of-node#readme",
+  "dependencies": {
+    "heapdump": "^0.3.15"
+  }
 }

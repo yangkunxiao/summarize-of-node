@@ -13,3 +13,8 @@
  * 2、原生模块缓存区加载
  * 3、从文件加载
  */
+function add(x, y) {
+    return x + y
+};
+// module.exports = add;  
+exports.add = add
