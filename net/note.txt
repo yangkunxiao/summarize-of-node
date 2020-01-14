@@ -1,0 +1,46 @@
+http：本质还是tcp层，只是做了很多的数据封装
+net:基于tcp的封装
+
+客户端与服务端通讯：
+    socket  net.socket
+
+组成：
+    net.socket: 全双工的stream接口
+    net.server: socket
+
+服务端：
+    1、新建server
+    2、listen监听端口
+    2、监听connection data、close、error事件
+客户端：
+    1、新建socket
+    2、连接指定的ip
+    3、监听connect data、close、error等事件
+
+
+net.server类：
+    1、创建server ：net.createServer()
+    2、listen()：server.listen(port,host,callback)
+    3、on:
+        listening
+        connection
+        close
+        error
+    4、方法：
+        listen()
+        close()
+        address() 返回绑定ip地址
+
+net.socket类：
+    1、创建socket连接：net.conntct(port,host) 返回socket套接字
+    2、监听 on
+        connect
+        data :socket.setEncoding('utf8')
+        end
+        error
+        timeout
+    3、方法
+        connect()
+        write() ：默认编码utf8
+        end()
+        setTimeout() 设置超时时长

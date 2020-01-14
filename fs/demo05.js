@@ -1,6 +1,7 @@
 //文件系统
-
 const fs = require('fs');
+const path = require('path');
+/* 
 
 //读取文件
 
@@ -27,7 +28,7 @@ fs.open('../test/01.txt', 'r+', function(err, fd) {
 });
 //同步
 let fd = fs.openSync('../test/01.txt', 'r+');
-console.log('文件打开成功，fd=' + fd);
+console.log('文件打开成功，fd=' + fd); */
 
 
 //获取文件信息  
@@ -43,21 +44,21 @@ console.log('文件打开成功，fd=' + fd);
  */
 
 //异步
-fs.stat('../test/01.txt', function(err, stats) {
+/* fs.stat('../test/01.txt', function(err, stats) {
     if (err) throw err;
     console.log(stats);
 });
 
 //同步
 let stats = fs.statSync('../test/01.txt');
-console.log(stats);
+console.log(stats); */
 
 
 //写入文件
 
 //异步
 
-console.log("准备写入文件");
+/* console.log("准备写入文件");
 fs.writeFile('../test/01.txt', '我是通 过fs.writeFile 写入文件的内容', function(err) {
     if (err) {
         return console.error(err);
@@ -78,4 +79,15 @@ fs.writeFile('../test/01.txt', '我是通 过fs.writeFile 写入文件的内容'
             console.log("文件删除成功！");
         });
     });
+}); */
+
+//readline 按行读取
+const readline = require('readline');
+const dir = path.resolve(__dirname, 'note.txt');
+const readStream = fs.createReadStream(dir);
+const readL = readline.createInterface({
+    input: readStream
 });
+readL.on('line', data => {
+    console.log(data)
+})
