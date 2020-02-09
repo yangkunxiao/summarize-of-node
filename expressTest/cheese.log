@@ -1,0 +1,182 @@
+[2020-02-07T15:32:06.182] [ERROR] default - err
+[2020-02-07T15:34:36.111] [ERROR] default - err
+[2020-02-07T15:36:36.759] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:37:26.243] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:38:26.401] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:38:46.646] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:38:49.866] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:40:49.870] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:41:50.756] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:41:52.586] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:42:12.751] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:42:14.624] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:42:15.645] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:42:32.082] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:42:33.130] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:42:38.822] [ERROR] default - TypeError: res.sen is not a function
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:20:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+[2020-02-07T15:42:51.265] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/response.js:170:12)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:28:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:354:14) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2020-02-07T15:43:41.910] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.contentType (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/response.js:599:15)
+    at ServerResponse.send (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/response.js:145:14)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/app.js:28:9
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/yangkunxiao/Desktop/Github/summarize-of-node/expressTest/node_modules/express/lib/router/index.js:281:22 {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}

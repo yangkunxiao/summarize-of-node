@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocketIO</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <input type="text" id="ipt">
+    <button onclick="send()" id="btn">发送</button>
+    <script>
+        let socket = io.connect("http://127.0.0.1:3000");
+        const btn = document.getElementById('btn');
+        const ipt = document.getElementById('ipt');
+        
+
+        function send(){
+            const innerText = ipt.value;
+            console.log()
+            if(!innerText){
+                alert('请输入消息');
+                return
+            }
+            socket.emit('msg',{
+                data:innerText,
+                type:'all'
+            })
+        }
+
+        
+        socket.on('users',(data) => {
+            console.log(data);
+        })
+        socket.on('disconnect',() => {
+            
+        })
+    </script>
+</body>
+</html>
