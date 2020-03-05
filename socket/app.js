@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
 const IO = require('socket.io')(server);
 let count = 0;
 
-IO.sockets.on('connection', socket => {
+IO.on('connection', socket => {
     count++;
     socket.emit('users', { number: count });
     socket.broadcast.emit('users', { number: count });

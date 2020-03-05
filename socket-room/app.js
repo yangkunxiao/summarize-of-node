@@ -4,6 +4,10 @@ const path = require('path');
 const fs = require('fs');
 const app = express();
 const server = http.createServer(app);
+/**
+ * WebSocket协议是建立在HTTP协议之上，因此创建websocket服务时需要调用http模块的createServer方法。
+ * 将生成的server作为参数传入socket.io的方法中。
+ */
 const IO = require('socket.io')(server);
 
 // 保存所有用户的信息
@@ -91,7 +95,6 @@ IO.on("connection", socket => {
         // 判断该用户是否存在，如果存在就触发receiveToOne事件
         for (let user of users) {
             if (user.username === data.to) {
-                console.log(0)
                 _sockets[data.to].emit('receiveToOne', data);
             }
         }

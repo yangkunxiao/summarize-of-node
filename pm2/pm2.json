@@ -1,0 +1,9 @@
+{
+    "name":"pm2-demo",
+    "script":"app.js",
+    "log_data_format":"YYYY-MM-DD HH:mm Z",
+    "out_file":"log/node-app.stdout.log",
+    "watch":true,
+    "instance":"max",
+    "exex_mode":"cluster"
+}

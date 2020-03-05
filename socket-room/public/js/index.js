@@ -49,7 +49,7 @@ socket.on("loginSuccess", data => {
     if (username === data.username) {
         beginChat(data);
     } else {
-        // comAndLeave(1, data);
+        comAndLeave(1, data);
     }
 })
 
