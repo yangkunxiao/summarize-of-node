@@ -19,6 +19,6 @@
   "homepage": "https://github.com/yangkunxiao/summarize-of-node#readme",
   "dependencies": {
     "heapdump": "^0.3.15",
-    "redis": "^2.8.0"
+    "redis": "^3.1.1"
   }
 }
